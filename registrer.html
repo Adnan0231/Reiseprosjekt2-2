@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrer deg</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    margin:0;
+}
+nav {
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.logo {
+  width: 100px;
+  height: 45px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+
+#Registrer{
+    width: 35%;
+    z-index:10;
+    height:500px;
+    background-color:red;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 30px;
+    background:rgba(0, 0, 0, 0.7);
+
+}
+
+#title{
+    text-align: center;
+    margin-top:100px;
+    color: white;
+}
+
+.sammelinje{
+    margin-left: 10px;
+    margin-top:40px;
+    border-radius:10px;
+    width:40%;
+    height:40px;
+    font-size:20px;
+    color: white;
+    background-color:rgba(68, 68, 68, 0.615);
+    text-align: center;
+    border:black;
+}
+
+.egenlinje{
+    margin-left:40px;
+    margin-top:10px;
+    border-radius:10px;
+    width:85%;
+    height:40px;
+    font-size:20px;
+    color: white;
+    background-color:rgba(68, 68, 68, 0.615);
+    text-align: center;
+    border:black;
+}
+
+
+.buttons{
+    margin-left: 40px;
+    border-radius:20px;
+    background-color:rgba(0, 0, 0, 0.503);
+    color: white;
+    font-size:20px;
+    width:35%;
+    height:50px;
+    margin-top:30px;
+}
+
+#utskrift{
+    color:red;
+    font-size: 20px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:-20px;
+}
+.hoved{
+    display: grid;
+    width: 100%;
+    height: 820px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Footer */
+
+.footer {
+  padding: 40px 0;
+  background-color:white; 
+  border-top: black solid 3px; 
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d;
+}
+.footer .social a {
+  font-size: 24px;
+  color: black;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.footer .social a:hover {
+  opacity: 0.9;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul a:hover {
+  opacity: 1;
+}
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+.list {
+  color: black;
+}
+
+
+
+    
+    </style>
+</head>
+<body>
+    
+    <div class="hoved" >
+    <div class="Bilde" style="height:825px;">
+        <img src="Bilderqatar/Logginnbilde.jpeg" style="width: 100%;">
+    </div>
+    <nav class="bar">
+        <a href="index.html"><img src="Bilderqatar/qatarlogo.png" style="width: 100px; ;"class="logo"> </a>
+        <ul>
+            <li><a href="index.html">HJEM</a></li>
+            <li><a href="Aktiviteter.html"> BOOKING </a></li>
+            <li><a href="Overnatting.html">OVERNATTING</a></li>
+            <li><a href="Informasjon.html">KONTAKT OSS</a></li>
+            <li><a href="Logginn.html">LOGG INN</a></li>    
+        </ul>
+      </nav>
+    <div id="Register" style="position:absolute;">
+        <div id="title"><h1>Register Deg</h1></div>
+        <div id="Javastuff">
+            <input type="text" id="name" class="sammelinje" placeholder="Fornavn" style="margin-left:50px; color:white;"> 
+            <input type="text" id="lastname" class="sammelinje" placeholder="Etternavn" style="color:white;"> <br>
+            <input type="email" id="email" class="egenlinje" placeholder="E-post" style="color:white;">
+            <input type="text" id="phone" class="egenlinje" placeholder="Telefon nummer (+47)" style="color:white;"> 
+            <input type="password" id="password" class="egenlinje" placeholder="Passord" style="color:white;">
+            <p id="utskrift">  </p>
+            <p id="utskrif"></p>
+            <button id="Enter" class="buttons">Registrer deg</button>
+            <a href="LoggInn.html"><button id="Cancel" class="buttons">Cancel</button></a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.snapchat.com/" target="_blank"><i class="fab fa-snapchat"></i></a>
+        </div>
+        <ul class="list">
+          <li>
+            <a href="index.html"><b>Hjem</b></a>
+          </li>
+          <li>
+            <a href="Aktiviteter.html"><b>Booking</b></a>
+          </li>
+          <li>
+            <a href="Overnatting.html"><b>Overnatting</b></a>
+          </li>
+          <li>
+            <a href="Logginn.html"><b>Logg inn</b></a>
+          </li>
+          <li>
+            <a href="Informasjon.html"><b>Kontakt oss</b></a>
+        </li>
+                        </ul>
+                        <p class="copyright"><b>Mohamed Abow @ 2023</b></p>
+                      </div>
+ <script>
+
+// Henter referanser til HTML-elementene som er involvert i koden
+let knappenEl = document.querySelector('#Enter');
+
+// Legger til en hendelseslytter for klikk på knappen
+knappenEl.addEventListener("click", store)
+
+// Definerer funksjonen store()
+function store(){
+// Henter referanser til de forskjellige HTML-elementene som er involvert i koden
+let nameEl = document.querySelector('#name');
+let lastnameEl = document.querySelector('#lastname');
+let emailEl = document.querySelector('#email');
+let phoneEl = document.querySelector('#phone');
+let PasswordEl = document.querySelector('#password');
+let utskriftEl = document.querySelector('#utskrift');
+
+// Definerer noen regulære uttrykk for å sjekke om passordet er gyldig
+let lowerCaseLetters = /[a-z]/g;
+let upperCaseLetters = /[A-Z]/g;
+let numbers = /[0-9]/g;
+
+// Sjekker om feltene for e-post og passord er fylt ut
+if(emailEl.value.length == 0){
+    utskriftEl.innerHTML = 'Vennligst skriv inn E-posten';
+}
+else if(PasswordEl.value.length == 0){
+    utskriftEl.innerHTML = 'Vennligst skriv inn Passordet';
+}
+// Sjekker om både navn og etternavn eller e-post og passord er fylt ut
+else if(nameEl.value.length == 0 && lastnameEl.value.length == 0){
+    utskriftEl.innerHTML = 'Vennligst skriv inn Navn Og Etternavn';
+}
+else if(emailEl.value.length == 0 && PasswordEl.value.length == 0){
+    utskriftEl.innerHTML = 'Vennligst skriv inn Epost Og Passordet';
+}
+// Sjekker om telefonnummeret er fylt ut
+else if(phoneEl.value.length == 0){
+    utskriftEl.innerHTML = 'Vennligst skriv inn Telefon Nummeret';
+}
+// Sjekker om passordet inneholder minst ett siffer
+else if(!PasswordEl.value.match(numbers)){
+    utskriftEl.innerHTML = 'Passordet må inneholde minst et siffer';
+}
+// Sjekker om passordet inneholder minst én stor bokstav
+else if(!PasswordEl.value.match(upperCaseLetters)){
+    utskriftEl.innerHTML = 'Passordet må inneholde minst en stor Bokstav';
+}
+// Sjekker om passordet inneholder minst én liten bokstav
+else if(!PasswordEl.value.match(lowerCaseLetters)){
+    utskriftEl.innerHTML = 'Passordet må inneholde minst en liten Bokstav';
+}
+else{
+    // Sjekker om det allerede finnes lagrede e-postadresser og passord i LocalStorage
+    if(localStorage.getItem('emailEl') == null){
+        localStorage.setItem('emailEl', '[]');
+    }
+    if(localStorage.getItem('PasswordEl') == null){
+        localStorage.setItem('PasswordEl', '[]');
+    }
+    // Henter ut verdien til "emailEl" fra LocalStorage og konverterer det fra JSON-format til et JavaScript-objekt og lagrer det i variabelen "EpostSomErLagret"
+let EpostSomErLagret = JSON.parse(localStorage.getItem('emailEl'));
+
+// Legger til verdien fra inputfeltet med id "emailEl" til variabelen "EpostSomErLagret"
+EpostSomErLagret.push(emailEl.value);
+
+// Henter ut verdien til "PasswordEl" fra LocalStorage og konverterer det fra JSON-format til et JavaScript-objekt og lagrer det i variabelen "PassordSomErLagret"
+let PassordSomErLagret = JSON.parse(localStorage.getItem('PasswordEl'));
+
+// Legger til verdien fra inputfeltet med id "PasswordEl" til variabelen "PassordSomErLagret"
+PassordSomErLagret.push(PasswordEl.value);
+
+// Lagrer verdiene tilbake til LocalStorage som JSON-format
+localStorage.setItem('emailEl', JSON.stringify(EpostSomErLagret));
+localStorage.setItem('PasswordEl', JSON.stringify(PassordSomErLagret));
+
+// Viser en melding til brukeren om at profilen deres er opprettet
+alert('Profilen din er Opprettet');
+
+// Sender brukeren til en ny side ved hjelp av location.replace() metoden
+location.replace("LoggInn.html");
+}
+}
+
+ </script>
+</body>
+</html>

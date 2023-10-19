@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overnatting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <style>
+*{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+
+
+nav {
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.logo {
+  width: 100px;
+  height: 45px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+#header{
+    height:100px;
+    width: 100%;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin:0;
+	background: silver;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 100vh;
+}
+
+img{
+	width: 100%;
+}
+.kort{
+	width: 460px;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+	background:black;
+}
+
+.kort img{
+	transform: scale(1.3);
+	transition: all 0.3s ease-out;
+}
+.kort:hover img{
+	transform: scale(1.1) translateY(-20px); 
+	opacity: 0.3
+}
+.kort .description{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.kort .description h3{
+	font-weight: 700;
+	font-size: 32px;
+	margin: 0 0 20px;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out;
+
+}
+.kort .description p{
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out 0.2s;
+    margin-bottom: 20px;
+}
+.kort .description a{
+	color: black;
+	background:white;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.1s ease-out 0.2s;
+}
+.kort .description a:hover{
+	background:red;
+}
+.kort:hover .description h3{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.kort:hover .description p{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.kort:hover .description a{
+	opacity: 1;
+	transform: translateY(0px);
+} 
+
+#hoved-container{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 14% 85%;
+    
+}
+
+#header{
+    grid-column: 1/span 3;
+    grid-row:1;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#kort1{
+    grid-row: 2;
+}
+
+
+#kort2{
+    grid-row: 2;
+}
+
+
+#kort3{
+    grid-row: 2;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="hoved"></div>
+    <nav class="bar">
+        <a href="index.html"><img src="Bilderqatar/qatarlogo.png" style="width: 100px; ;"class="logo"> </a>
+        <ul>
+            <li><a href="index.html">HJEM</a></li>
+            <li><a href="Aktiviteter.html"> BOOKING </a></li>
+            <li><a href="Overnatting.html">OVERNATTING</a></li>
+            <li><a href="Informasjon.html">KONTAKT OSS</a></li>
+            <li><a href="Logginn.html">LOGG INN</a></li>
+            
+            
+        </ul>
+        
+    </nav>
+
+        <div id="hoved-container">
+            <div id="header">TOP HOTELLER I QATAR</div> 
+
+            <div class="kort" id="kort1">
+                <img src="Bilderqatar/Hotel1.jpeg">
+                <div class="description">
+                    <h3>Al Messila</h3>
+                    <p>Al Messila Resort & Spa er et 5-stjerners luksushotell i Doha som tilbyr romslige rom,
+                        signatursuiter og luksusvillaer med privat basseng. Hotellet har en autentisk oase av duftende hager og tilbyr 
+                        avslapning ved utendørsbassenget, unike restauranter og lounges, og et omfattende barneprogram. Det ligger 15 minutter 
+                        fra sentrum av Doha og er en perfekt base for å utforske byen.</p>
+                        
+                    <a href= "https://www.tripadvisor.com/Hotel_Review-g294009-d16883392-Reviews-Al_Messila_a_Luxury_Collection_Resort_Spa_Doha-Doha.html"  target="_blank">Bestill her</a>
+                </div>
+            </div>
+            <div class="kort" id="kort1">
+                <img src="Bilderqatar/Hotel2.jpeg">
+                <div class="description">
+                    <h3> Alwadi Hotel Doha</h3>
+                    <p>Alwadi Hotel Doha er et hotell i hjertet av Doha, nær Souq Waqif og flere museer 
+                        og landemerker. Hotellet har moderne rom og suiter, flere restauranter og barer, og 
+                        gjestene kan dra nytte av hotellets concierge for å planlegge utflukter i byen.</p>
+                        
+                    <a href="https://www.tripadvisor.com/Hotel_Review-g294009-d14212465-Reviews-Alwadi_Hotel_Doha_MGallery-Doha.html"  target="_blank">Bestill her</a>
+                </div>
+            </div>
+            <div class="kort" id="kort1">
+                <img src="Bilderqatar/hotel3.jpeg">
+                <div class="description">
+                    <h3>W doha</h3>
+                    <p>W Doha er det første livsstilshotellet i Doha, og ligger i West Bay-området i byens sentrum. Hotellet har moderne
+                        og samtidig designelementer fra regionen, og tilbyr moderne luksuriøs innkvartering. Alle rom har IP-telefoner og digitale safe-bokser 
+                        med ladeanlegg for bærbar PC, og bukhour er ikke tillatt i gjesterommene eller møterommene.</p>
+                        
+                    <a href="https://www.tripadvisor.com/Hotel_Review-g294009-d1026211-Reviews-W_Doha-Doha.html"  target="_blank">Bestill her</a>
+                </div>
+            </div>
+
+        
+
+        </div>
+
+        
+    
+
+</body>
+</html>
