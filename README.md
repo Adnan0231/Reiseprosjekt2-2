@@ -57,38 +57,51 @@ Spørsmål 1: Brukervennlighet
 Spørsmål: Hvordan vurderer du opplevelsen av å logge inn på denne plattformen?
 
 Svar: Påloggingssiden var veldig enkel å bruke. Jeg fant det lett å navigere gjennom brukernavns- og passordfeltene. Kanskje kunne det være et tydeligere varsel for når passordet er feil, så jeg slipper å gjette.
+
 Spørsmål: Var påloggingsprosessen enkel å forstå, eller var det elementer som forvirret deg?
 
 Svar: Jeg hadde litt problemer med å finne påloggingsknappen i begynnelsen, men etter å ha funnet den, var prosessen ganske rett frem. Det ville være nyttig med en enkel guide for førstegangsbrukere for å gjøre det enda mer brukervennlig.
+
 Spørsmål: Er det noe spesifikt ved brukernavns-/passordfeltene eller påloggingsknappen som du tror kunne forbedres for å gjøre det mer brukervennlig?
 
 Svar: Grensesnittet var greit, men jeg fant det litt forvirrende å endre passordet mitt. Kanskje det kan være enklere å finne og endre personlige innstillinger.
+
 Spørsmål: Er det noe spesifikt ved brukernavns-/passordfeltene eller påloggingsknappen som du tror kunne forbedres for å gjøre det mer brukervennlig?
 
 Svar: Jeg likte oppsettet, men fant det litt vanskelig å skille mellom brukernavn og e-postfeltet. Kanskje det kan tydeliggjøres litt mer.
-Spørsmål 2: Sikkerhet og Tillit
+
+
+
+
 Spørsmål: Føler du deg trygg når du legger inn brukernavn og passord på denne siden?
 
 Svar: Jeg følte meg trygg under påloggingen. Synes det ville være bra med en påminnelse om å logge ut etter bruk for ekstra sikkerhet.
+
 Spørsmål: Er det noe på siden som gir deg bekymringer når det gjelder personvern eller sikkerhet?
 
 Svar: Jeg ønsker virkelig totrinnsbekreftelse for ekstra sikkerhet. Det ville gi meg mye mer tillit til plattformen.
+
 Spørsmål: Hvorfor tror du det er viktig å ha sikre påloggingsmetoder på denne plattformen?
 
 Svar: Sikkerheten virket grei, men jeg ville satt pris på en kort forklaring om hvordan dataene mine blir behandlet for å føle meg helt trygg.
+
 Spørsmål: Er det noe på siden som gir deg bekymringer når det gjelder personvern eller sikkerhet?
 
 Svar: Jeg tenker ikke mye på sikkerhet når jeg logger inn, men det ville være fint å ha enkle tips eller lenker til sikkerhetspraksis for brukere som ønsker å vite mer.
-Spørsmål 3: Mobilitet og Responsivitet
+
+
 Spørsmål: Testet du påloggingssiden på flere enheter (for eksempel mobiltelefon, nettbrett, datamaskin)? Hvordan var opplevelsen?
 
 Svar: Jeg brukte bare datamaskinen, men alt var responsivt og raskt. Ingen klager her.
+
 Spørsmål: Hvis du brukte mobiltelefonen, var grensesnittet responsivt og enkelt å bruke?
 
 Svar: Jeg testet på mobiltelefonen, og det var litt trangt. Noen ganger klikket jeg på feil ting. Kanskje knappene kan være litt større for bedre mobilitet.
+
 Spørsmål: Er det noen forbedringer du kan foreslå for å gjøre påloggingsopplevelsen bedre tilpasset ulike enheter?
 
 Svar: Jeg testet på begge, og det var greit, men mobilgrensesnittet kan definitivt forbedres. Noen elementer var for små.
+
 Spørsmål: Er det noen forbedringer du kan foreslå for å gjøre påloggingsopplevelsen bedre tilpasset ulike enheter?
 
 Svar: Jeg brukte både mobil og datamaskin, og det fungerte bra på begge. Ingen problemer med responsiviteten.
